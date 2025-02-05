@@ -1,10 +1,15 @@
 # Main Goal
 **light-weight model to better fit mobile devices**
 
-Methods:
+## Methods:
 1. Pruning
 2. Quantization
 3. Knowledge Distillation
+   a. Teacher model -> soft labels
+   b. Student model -> inference
+   c. Loss = Lsoft + LHard 
+      Lsoft = KL LHard = CrossEntropy
+
 4. Mix-precision Inference
 
 # Steps and Rethink
