@@ -5,10 +5,10 @@
 1. Pruning
 2. Quantization
 3. Knowledge Distillation
-   a. Teacher model -> soft labels
-   b. Student model -> inference
-   c. Loss = Lsoft + LHard 
-      Lsoft = KL LHard = CrossEntropy
+   - Teacher model -> soft labels
+   - Student model -> inference
+   - Loss = Lsoft + LHard 
+   - Lsoft = KL LHard = CrossEntropy
 
 4. Mix-precision Inference
 
