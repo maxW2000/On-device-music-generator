@@ -13,3 +13,6 @@
 4. Mix-precision Inference
 
 # Steps and Rethink
+
+## Datasets
+1. how and where to fetch datasets
