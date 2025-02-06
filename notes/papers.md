@@ -4,5 +4,5 @@
 
 # Compress Method
 1. [One-shot Pruning Technique for Interchangeable Networks (OPTIN) framework ](https://github.com/Skhaki18/optin-transformer-pruning)
-**the efficiency of pre-trained transformer architectures, across many domains, without requiring re-training**
+- **the efficiency of pre-trained transformer architectures, across many domains, without requiring re-training**
    [The Need for Speed: Pruning Transformers with One Recipe](https://arxiv.org/abs/2403.17921v1)
