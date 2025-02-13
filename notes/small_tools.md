@@ -27,3 +27,11 @@ try:
         print(f"prase yaml file failed: {e}")
     pass
 ```
+# CoreMLTools教程
+用于将模型转换成Coreml(苹果适用) <br>
+[可变长的input和output]设定(https://apple.github.io/coremltools/docs-guides/source/flexible-inputs.html)
+
+# Swift-transformers
+(用于在swift中使用transformer的swift库)[https://github.com/huggingface/swift-transformers]
+具体导入File -> Add Package Dependencies -> 搜索这个github就可以导入了
+
