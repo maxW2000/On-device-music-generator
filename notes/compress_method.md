@@ -7,3 +7,5 @@
 |pruning_algorithm|Hugging Face Transformers|指定剪枝算法，如magnitude, movement等|
 |pruning_threshold|Hugging Face Transformers|指定剪枝的阈值，低于该阈值的权重将被剪枝|
 |pruning_steps|Hugging Face Transformers|指定剪枝的步骤数，通常用于逐步剪枝|
+
+# 量化方法
