@@ -1,8 +1,8 @@
 # Models
 1.  [On-Device Language Models: A Comprehensive Review](https://arxiv.org/pdf/2409.00088)
-2.  [Simple and Controllable Music Generation](https://arxiv.org/pdf/2306.05284) 目前在研究这个模型 02/06/2025
+2.  [Simple and Controllable Music Generation](https://arxiv.org/pdf/2306.05284) currently working on 02/06/2025
 ```
-SMALL 版本
+SMALL version
 MusicgenForConditionalGeneration: 1 layers, 586,884,674 parameters
 T5EncoderModel: 1 layers, 109,628,544 parameters
 Embedding: 6 layers, 33,067,392 parameters
