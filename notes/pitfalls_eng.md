@@ -39,9 +39,11 @@ Text Input
 // In the Config format. There is an implementation in the Hub library. Refer to the GitHub notes for details.
 self.tokenizer = try AutoTokenizer.from(
 tokenizerConfig: tokenizerConfig, tokenizerData: tokenizerData)
-https://github.com/huggingface/swift-transformers/blob/2eea3158b50ac7e99c9b5d4df60359daed9b832c/Sources/Hub/Hub.swift
-https://github.com/huggingface/swift-transformers/issues/76
 ```
+Refers:
+(https://github.com/huggingface/swift-transformers/blob/2eea3158b50ac7e99c9b5d4df60359daed9b832c/Sources/Hub/Hub.swift)
+(https://github.com/huggingface/swift-transformers/issues/76)
+
 # Model Output
 At first, the output was nan. Later, it was found that it was because the model was not converted properly. Refer to the above point 3 in the model conversion section.
 Android Development
