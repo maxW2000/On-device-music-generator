@@ -10,7 +10,7 @@ see [model_process.md](https://github.com/maxW2000/On-device-music-generator/blo
 
 # iOS development
 ### 2.18 
-success: already created an APP frame(raw user interface) in Xcode, imported the model and tokenizer into Xcode, 
+success: already created an APP frame(raw user interface) in Xcode, imported the model and tokenizer into Xcode <br>
 failed: something wrong with the model structure, fail to inference in Xcode
 
 
