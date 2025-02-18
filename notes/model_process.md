@@ -26,8 +26,10 @@
   ```
   2.11: method 1 > method 2
 
-  ## Pruning
+## Pruning
   
-  
+## Evaluations
+1. FLOPs
+2. Parameters counting -> Zeros Vs. Non-Zeros  
 ## Datasets
 1. how and where to fetch datasets
