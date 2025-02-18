@@ -33,8 +33,20 @@ pip install "transformers<4.37.0" 降级了transformer解决了
 1. **需要自己实现text转换token逻辑** 要去看模型的配置文件去更改具体逻辑内容
 2. 自行添加的文件夹想要调用 需要放到Assets中 并且在Assets中选中文件 在右侧的Target Memebership中添加项目Target才能获得
 3. 转换模型时应该注意input的shape 需要为可变的 因为用户输入text的时候肯定是可变长的文本
+4. tokenizer读取 读取本地文件的tokenzier和tokenizerconfig文件 -> Data格式 -> 参考github Hub库 Data解析为[NSString: Any]字典 -> Config格式(Transformer库中的格式) 参考github
+```
+// 为Config格式 具体在Hub库中有实现 具体参考github笔记
+self.tokenizer = try AutoTokenizer.from(
+tokenizerConfig: tokenizerConfig, tokenizerData: tokenizerData)
+```
+<br>
+https://github.com/huggingface/swift-transformers/blob/2eea3158b50ac7e99c9b5d4df60359daed9b832c/Sources/Hub/Hub.swift
+<br>https://github.com/huggingface/swift-transformers/issues/76
+6. 
 
 ## 模型输出
 1. 一开始输出为nan 后面发现是因为**模型没有转换好** 参看上，上面模型转换第**3**点
+
+
 
 # 安卓开发
