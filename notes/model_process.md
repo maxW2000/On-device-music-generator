@@ -27,9 +27,12 @@
   2.11: method 1 > method 2
 
 ## Pruning
+1. Linear Layer √ 
+2. Attention Layer √
+3. Parameterized Conv1d X
 ```
 def _prune_linear(self) -> torch.nn.Module:
-        """剪枝线性层"""
+        """pruning Linear Layer"""
         print(f"Pruning linear layers with ratio: {self.config.linear_sparsity_ratio}")
         
         for name, module in self.model.named_modules():
@@ -44,7 +47,7 @@ def _prune_linear(self) -> torch.nn.Module:
         return self.model
     
     def _prune_attention(self) -> torch.nn.Module:
-        """剪枝注意力层"""
+        """pruning Attention Layer"""
         print(f"Pruning attention layers with ratio: {self.config.attention_sparsity_ratio}")
         
         for name, module in self.model.named_modules():
@@ -60,10 +63,18 @@ def _prune_linear(self) -> torch.nn.Module:
             
         return self.model
 ```
+Pruning Result: Worked but the results are not good, but could be used
+
 ## Distill
-Not Started yet
+Not Started yet, I think I need **Dataset**, **any method I only need a little data to distill.**
+
+## Mix-precision Inference
+enlightened by DeepSeek tech report, trying to figure out HOW :(
+
 ## Evaluations
 1. FLOPs
-2. Parameters counting -> Zeros Vs. Non-Zeros  
+2. Parameters counting -> Zeros Vs. Non-Zeros
+3. Cosine Similarity for the original model and compressed model
+4. 
 ## Datasets
-1. fetch datasets from large-version model, trying to use it for re-train Compressed Model
+1. fetch datasets from the large-version model, trying to use it for re-train Compressed Model and distilling
