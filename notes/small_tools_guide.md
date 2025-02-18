@@ -29,9 +29,10 @@ try:
 ```
 # CoreMLTools教程
 用于将模型转换成Coreml(苹果适用) <br>
-[可变长的input和output]设定(https://apple.github.io/coremltools/docs-guides/source/flexible-inputs.html)
+[可变长的input和output]设定(https://apple.github.io/coremltools/docs-guides/source/flexible-inputs.html) <br>
+[LLMs转换](https://apple.github.io/coremltools/docs-guides/source/convert-openelm.html)
 
 # Swift-transformers
-(用于在swift中使用transformer的swift库)[https://github.com/huggingface/swift-transformers]
+(用于在swift中使用transformer的swift库)[https://github.com/huggingface/swift-transformers]s
 具体导入File -> Add Package Dependencies -> 搜索这个github就可以导入了
 
