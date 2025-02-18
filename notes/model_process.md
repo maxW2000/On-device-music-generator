@@ -27,6 +27,39 @@
   2.11: method 1 > method 2
 
 ## Pruning
+```
+def _prune_linear(self) -> torch.nn.Module:
+        """剪枝线性层"""
+        print(f"Pruning linear layers with ratio: {self.config.linear_sparsity_ratio}")
+        
+        for name, module in self.model.named_modules():
+            if isinstance(module, torch.nn.Linear):
+                prune.l1_unstructured(
+                    module,
+                    name='weight',
+                    amount=self.config.linear_sparsity_ratio
+                )
+                prune.remove(module, 'weight')
+                
+        return self.model
+    
+    def _prune_attention(self) -> torch.nn.Module:
+        """剪枝注意力层"""
+        print(f"Pruning attention layers with ratio: {self.config.attention_sparsity_ratio}")
+        
+        for name, module in self.model.named_modules():
+            if "attention" in name:
+                for param_name in ['query', 'key', 'value']:
+                    if hasattr(module, param_name):
+                        prune.l1_unstructured(
+                            module,
+                            name=param_name,
+                            amount=self.config.attention_sparsity_ratio
+                        )
+                        prune.remove(module, param_name)
+            
+        return self.model
+```
   
 ## Evaluations
 1. FLOPs
