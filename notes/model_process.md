@@ -60,9 +60,10 @@ def _prune_linear(self) -> torch.nn.Module:
             
         return self.model
 ```
-  
+## Distill
+Not Started yet
 ## Evaluations
 1. FLOPs
 2. Parameters counting -> Zeros Vs. Non-Zeros  
 ## Datasets
-1. how and where to fetch datasets
+1. fetch datasets from large-version model, trying to use it for re-train Compressed Model
