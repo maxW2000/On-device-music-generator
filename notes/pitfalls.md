@@ -40,9 +40,9 @@ self.tokenizer = try AutoTokenizer.from(
 tokenizerConfig: tokenizerConfig, tokenizerData: tokenizerData)
 ```
 <br>
-https://github.com/huggingface/swift-transformers/blob/2eea3158b50ac7e99c9b5d4df60359daed9b832c/Sources/Hub/Hub.swift
-<br>https://github.com/huggingface/swift-transformers/issues/76
-6. 
+https://github.com/huggingface/swift-transformers/blob/2eea3158b50ac7e99c9b5d4df60359daed9b832c/Sources/Hub/Hub.swift <br> <br>
+https://github.com/huggingface/swift-transformers/issues/76
+
 
 ## 模型输出
 1. 一开始输出为nan 后面发现是因为**模型没有转换好** 参看上，上面模型转换第**3**点
