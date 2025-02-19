@@ -66,7 +66,8 @@ def _prune_linear(self) -> torch.nn.Module:
 Pruning Result: Worked but the results are not good, but could be used
 
 ## Distill
-Not Started yet, I think I need **Dataset**, **any method I only need a little data to distill.**
+Not Started yet, I think I need **Dataset**, **any method I only need a little data to distill.** <br>
+enlighted by DSR1, High-quality datasets can make small model better
 
 ## Mix-precision Inference
 enlightened by DeepSeek tech report, trying to figure out HOW :(
