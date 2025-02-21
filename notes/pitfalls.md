@@ -17,6 +17,16 @@ pip install "transformers<4.37.0" 降级了transformer解决了
 **ipynb和py用同一个kernel****但是ipynb需要重启一下kernel才会更新库**
 
 ## 模型转换
+### 转换类型
+1. TorchScript
+```
+model = MusicgenForConditionalGeneration.from_pretrained(model_path, 
+                                                            torchscript=True,
+                                                            return_dict=False   # 强制返回张量而非对象)
+    )
+#强制 HuggingFace 模型返回 TorchScript 兼容的输出格式，避免了复杂对象 Seq2SeqLMOutput 导致的类型推断失败问题
+``` 
+2. Onxx
 **CoreML库不太支持Windows, 用unix类系统**
 1. 使用CoreML对模型进行转换 且 若目标版本高于iOS15 只能是convert to "mlprograme"且格式为.mlpackage
 2. 还记得要把模型的各种config导入 并且进行分词，用于模型的input生成 (现在用transformer-swift库了)
