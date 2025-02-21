@@ -36,3 +36,13 @@ try:
 (用于在swift中使用transformer的swift库)[https://github.com/huggingface/swift-transformers]s
 具体导入File -> Add Package Dependencies -> 搜索这个github就可以导入了
 
+# NOTES
+1. model() 与 model.generate()的区别
+model():方法主要用于获取模型的原始输出，通常是模型最后一层的隐藏状态、对数概率（logits）等。这些输出是模型在处理输入数据时内部计算的中间结果，需要进一步处理才能得到有意义的文本 <br>
+model.generate(): 方法是专门用于文本生成的高级接口，它会自动处理模型的输出，根据输入生成连续的文本序列。该方法内部实现了多种文本生成策略，如贪心搜索、束搜索、采样等，可以通过参数进行灵活配置。
+
+# TorchScript 与 Onxx
+可以用于其他平台部署的模型形式
+具体查看 -> 
+但是有一些坑遇到的 请查看 ->
+
