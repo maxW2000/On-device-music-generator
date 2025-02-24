@@ -55,5 +55,5 @@ Sander-wood(Text2Text类型下进行的转换) -> Encoder.onnx + Decoder.onnx
 
 # Android 
 ## Dependency and package
-see here (https://blog.csdn.net/qq_36158551/article/details/135384497)
+how to import dependency and sync -> see here (https://blog.csdn.net/qq_36158551/article/details/135384497)
 
