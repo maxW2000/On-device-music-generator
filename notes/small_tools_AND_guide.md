@@ -53,3 +53,7 @@ Sander-wood(Text2Text类型下进行的转换) -> Encoder.onnx + Decoder.onnx
 
 但是有一些坑遇到的 请查看 ->
 
+# Android 
+## Dependency and package
+see here (https://blog.csdn.net/qq_36158551/article/details/135384497)
+
