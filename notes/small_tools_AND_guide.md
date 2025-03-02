@@ -57,3 +57,12 @@ Sander-wood(Text2Text类型下进行的转换) -> Encoder.onnx + Decoder.onnx
 ## Dependency and package
 how to import dependency and sync -> see here (https://blog.csdn.net/qq_36158551/article/details/135384497)
 
+# Llama.cpp
+
+## install llama.cpp
+[How to build](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md) **linux可以直接参考** Windows 和 macos需要额外的一些配置 具体之后再补充
+## hf to gguf guide
+[Tutorial: How to convert HuggingFace model to GGUF format  [UPDATED]](https://github.com/ggml-org/llama.cpp/discussions/7927) <br>
+**注意 把里面的convert.py 改成 convert_hf_to_gguf.py**
+[Tutorial: How to convert HuggingFace model to GGUF format](https://github.com/ggml-org/llama.cpp/discussions/2948) <br> 
+
