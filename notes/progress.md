@@ -20,6 +20,6 @@ Try to find more models and GGUFs.
 
 # 3.4 
 1. I learned the whole structure of MusicGen and tried to convert them separately. Still failed XD
-2. convert to ONNX, [reference in small_tools_AND_guide.md Huggingface to ONNX] 
+2. convert to ONNX, [reference small_tools_AND_guide.md Huggingface to ONNX](--task)
 # Next step
 still find more models, maybe I have to convert by myself to re-write the underlying codes
