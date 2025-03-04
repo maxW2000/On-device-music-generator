@@ -19,7 +19,7 @@ Try to find more models and GGUFs.
 3. The third model, is still a LLM but can only generate some text about lyrics and melody
 
 # 3.4 
-1. I learned the whole structure of MusicGen and tried to convert them separately. Still failed XD
+1. I learned the main structure of MusicGen(forward and generate where are they and how they worked) and tried to convert them separately. Still failed XD
 2. convert to ONNX, [reference small_tools_AND_guide.md Huggingface to ONNX](https://github.com/maxW2000/On-device-music-generator/blob/main/notes/small_tools_AND_guide.md) **--task = text-to-audio**
 # Next step
 still find more models, maybe I have to convert by myself to re-write the underlying codes
