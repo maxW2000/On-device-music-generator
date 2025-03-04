@@ -18,5 +18,8 @@ Try to find more models and GGUFs.
 2. Try to convert GGUF, three models in **candidate_models** only the third one is supported
 3. The third model, is still a LLM but can only generate some text about lyrics and melody
 
+# 3.4 
+1. I learned the whole structure of MusicGen and tried to convert them separately. Still failed XD
+
 # Next step
 still find more models, maybe I have to convert by myself to re-write the underlying codes
