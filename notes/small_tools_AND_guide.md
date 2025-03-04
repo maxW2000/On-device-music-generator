@@ -49,7 +49,7 @@ see here -> [大模型推理两种实现方式的区别：model.generate()和mod
 
 ## Onnx
 ### Huggingface to Onnx
-Huggingface to Onnx具体如何查看 ->(https://zhuanlan.zhihu.com/p/715163290)写的比较详细 **包括里面的参数 ！！！**，对于sander-wood模型**本身由encoder-decoder组成，encoder负责文本，decoder负责auto-agressive产出结果并借由tokenizer.decode最终结果，所以把模型拆成两部分进行onnx转换**   <br> 
+Huggingface to Onnx具体如何操作查看 ->(https://zhuanlan.zhihu.com/p/715163290)写的比较详细 **包括里面的参数 ！！！**，对于sander-wood模型**本身由encoder-decoder组成，encoder负责文本，decoder负责auto-agressive产出结果并借由tokenizer.decode最终结果，所以把模型拆成两部分进行onnx转换**   <br> 
 Sander-wood(Text2Text类型下进行的转换) -> Encoder.onnx + Decoder.onnx 
 
 但是有一些坑遇到的 请查看 ->
