@@ -42,7 +42,8 @@ model():方法主要用于获取模型的原始输出，通常是模型最后一
 model.generate(): 方法是专门用于文本生成的高级接口，它会自动处理模型的输出，根据输入生成连续的文本序列。该方法内部实现了多种文本生成策略，如贪心搜索、束搜索、采样等，可以通过参数进行灵活配置。<br>
 generate see here ->(https://blog.csdn.net/weixin_44826203/article/details/129928897)<br>
 see here -> [大模型推理两种实现方式的区别：model.generate()和model()](https://blog.csdn.net/qq_61980594/article/details/138341382) <br>
-**model.generate**是对model()的一种高级封装, 封装了完整的生成流程（如 beam search、采样、终止条件等），直接返回生成结果。内置多种生成策略（如贪心搜索、top-k/top-p 采样、beam search），简化了代码复杂度
+**model.generate**是对model()的一种高级封装, 封装了完整的生成流程（如 beam search、采样、终止条件等），直接返回生成结果。内置多种生成策略（如贪心搜索、top-k/top-p 采样、beam search），简化了代码复杂度 <br>
+generate中search与sampling方法 -> (https://zhuanlan.zhihu.com/p/634369249)
 
 # TorchScript 与 Onnx
 可以用于其他平台部署的模型形式 
