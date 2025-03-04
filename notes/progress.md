@@ -5,3 +5,18 @@
 # 2.22
 1. Try new Model sander_wood https://huggingface.co/sander-wood/text-to-music
 2. convert to Onnx Successful ✔️
+
+# 2.23 - 2.24
+1. Try convert sander-wood onnx to coreml and sander-wood pytorch to sander-wood. Still have problem
+2. complete the structure of iOS on-device generator. I need to find more models
+
+# 2.25
+Try to find more models and GGUFs. 
+
+# 2.27 - 3.2
+1. learn how to use LLama.cpp 
+2. Try to convert GGUF, three models in **candidate_models** only the third one is supported
+3. The third model, is still a LLM but can only generate some text about lyrics and melody
+
+# Next step
+still find more models, maybe I have to convert by myself to re-write the underlying codes
