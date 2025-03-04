@@ -79,7 +79,11 @@ how to import dependency and sync -> see here (https://blog.csdn.net/qq_36158551
 **注意 把里面的convert.py 改成 convert_hf_to_gguf.py**
 [Tutorial: How to convert HuggingFace model to GGUF format](https://github.com/ggml-org/llama.cpp/discussions/2948) <br> 
 
-## MNN
+## MNN by Alibaba
+api -> (https://mnn-docs.readthedocs.io/en/latest/inference/python.html)
+<br>
+<br>
+
 
 ## PowerInfer
 
