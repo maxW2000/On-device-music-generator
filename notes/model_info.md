@@ -42,4 +42,5 @@ MusicgenDecoderLayer: 24 layers, 402,800,640 parameters
 MusicgenSdpaAttention: 48 layers, 201,326,592 parameters
 GELUActivation: 24 layers, 0 parameters
 LayerNorm: 73 layers, 149,504 parameters
-``` 
+```
+[onnx_version](https://github.com/huggingface/optimum/issues/1297)
