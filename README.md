@@ -5,8 +5,8 @@ Including 3 parts
 2. ios development
 3. android development
 
-# Model Process
-see [model_process.md](https://github.com/maxW2000/On-device-music-generator/blob/main/notes/model_process.md)
+# Main Process
+see [process.md](https://github.com/maxW2000/On-device-music-generator/blob/main/notes/progress.md))
 
 # iOS development
 ### 2.18 
