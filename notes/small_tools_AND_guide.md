@@ -60,6 +60,9 @@ Sander-wood(Text2Text类型下进行的转换) -> Encoder.onnx + Decoder.onnx
 
 但是有一些坑遇到的 请查看 ->
 
+### Onnx on iOS
+see here -> (https://medium.com/@baicenxiao/4-incorporating-an-onnx-model-into-an-ios-project-ac2658815332)
+
 # Android 
 ## Dependency and package
 how to import dependency and sync -> see here (https://blog.csdn.net/qq_36158551/article/details/135384497)
