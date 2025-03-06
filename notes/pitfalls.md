@@ -53,6 +53,9 @@ tokenizerConfig: tokenizerConfig, tokenizerData: tokenizerData)
 https://github.com/huggingface/swift-transformers/blob/2eea3158b50ac7e99c9b5d4df60359daed9b832c/Sources/Hub/Hub.swift <br> <br>
 https://github.com/huggingface/swift-transformers/issues/76
 
+## sander-wood onnx 模型生成坑
+1. tokenizer需要自己去写一个，topp采样和temperaturesampling也是需要自己写
+2. 一直输出不对是因为**attentionmask第一个变成0了！ 要是1才对**
 
 ## 模型输出
 1. 一开始输出为nan 后面发现是因为**模型没有转换好** 参看上，上面模型转换第**3**点
