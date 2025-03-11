@@ -94,4 +94,7 @@ api -> (https://mnn-docs.readthedocs.io/en/latest/inference/python.html)
 
 ## MediaPipe
 
+# 如何查看模型源代码
+**请使用pycharm的debug功能！**
+
 
