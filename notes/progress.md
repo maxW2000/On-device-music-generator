@@ -27,5 +27,11 @@ successfully convert ONNX for Sander-wood model and deploy on iOS
 
 # 3.11
 sucessfully implement the generation function of Musicgen, by Debug and go through the whole Generation Function of MusicGen
+
+# 3.19
+Distill Musicgen small
+
+# 3.22
+Generate music using ONNX, (using decoder_model.onnx )
 # Next step
 still find more models, maybe I have to convert by myself to re-write the underlying codes
