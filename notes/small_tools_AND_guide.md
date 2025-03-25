@@ -33,8 +33,12 @@ try:
 [LLMs转换](https://apple.github.io/coremltools/docs-guides/source/convert-openelm.html)
 
 # Swift-transformers
+用于加载tokenizer 和 下载模型
+<br>
 (用于在swift中使用transformer的swift库)[https://github.com/huggingface/swift-transformers]s
-具体导入File -> Add Package Dependencies -> 搜索这个github就可以导入了
+具体导入File -> Add Package Dependencies -> 搜索这个github就可以导入了 <br>
+使用教程 -> https://swiftpackageindex.com/ensan-hcl/swift-tokenizers 直接用官方的tokenizer就可以 加载的也挺快的
+
 
 # NOTES
 1. model() 与 model.generate()的区别
