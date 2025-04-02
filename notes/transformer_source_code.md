@@ -8,7 +8,7 @@
 1. 继承自 **GenerationMixin** 类，模型会对generate方法进行重写
 2. 几个重要看的函数  <br> _prepare_model_inputs() <br> _prepare_text_encoder_kwargs_for_generation() (目前仅限musicgen 因为musicgen的encoder是用的T5)
 <br> _prepare_decoder_input_ids_for_generation() <br> _prepare_generated_length() <br> build_delay_pattern_mask() (对于musicgen 参考论文其delaypatternmask的实现模式)
-<br> get_generation_mode <br> _get_logits_processor <br> _get_stopping_criteria
+<br> get_generation_mode() <br> _get_logits_processor() <br> _get_stopping_criteria()
 
 ## _sample 函数 from GenerationMixin class
 这个函数实现了调用decoder的具体方法 需要认真查看 <br> 包括 
